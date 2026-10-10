@@ -8,7 +8,7 @@ Chained Together 用の非公式UnchainedTogetherベースModです。ホスト�
 2. `ChainedTogether\Binaries\Win64\d3d12.dll` をこのフォルダーの `d3d12.dll` に置き換えます。
 3. Steamから起動し、Host Gameの人数欄に1〜16人が表示されることを確認します。
 
-今回のチェーン補修の直前に使われていたDLLは `d3d12.dll.pre-chain-sync` に保存しています。戻す場合はゲームを終了し、このファイルを `d3d12.dll` に戻してください。さらに古いDLLも `d3d12.dll.pre-sdk-fix`、`d3d12.dll.pre-vtable-fix`、`d3d12.dll.previous` に残しています。
+上書きする前に、現在の `d3d12.dll` を別の場所へコピーして保管してください。復元する場合はゲームを終了し、そのコピーを元の `d3d12.dll` に戻します。
 
 ## 実装内容
 
